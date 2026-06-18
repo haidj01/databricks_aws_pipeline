@@ -1,2 +1,4 @@
 /kafka_databricks_terraform/databricks/terraform.tfvars
 /kafka_databricks_terraform/terraform.tfvars
+*.tfstate
+*.tfstate.*
