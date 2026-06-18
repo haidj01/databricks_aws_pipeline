@@ -1,0 +1,11 @@
+region = "ap-northeast-2"
+name   = "test"
+
+# Databricks 계정 정보 (https://accounts.cloud.databricks.com)
+databricks_account_id    = "af837a73-9eb3-4439-be52-ac9d4f6e8675"
+databricks_client_id     = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"   # Service Principal Client ID
+databricks_client_secret = "your-client-secret"                      # Service Principal Client Secret
+
+# Kafka 연결 (kafka_aws 모듈의 output: kafka_bootstrap_server)
+kafka_bootstrap_servers = "x.x.x.x:9092"
+kafka_topic             = "raw-events"
