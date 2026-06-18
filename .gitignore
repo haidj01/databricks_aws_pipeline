@@ -1,4 +1,15 @@
+# Terraform secrets
 /kafka_databricks_terraform/databricks/terraform.tfvars
 /kafka_databricks_terraform/terraform.tfvars
+
+# Terraform state & cache
 *.tfstate
 *.tfstate.*
+.terraform/
+
+# IDE
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
